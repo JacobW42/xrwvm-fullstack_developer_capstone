@@ -3,6 +3,36 @@ img{
   align-self: center;
 }
 
+.topHeader {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+#Pic {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-info {
+    max-width: 500px;
+    text-align: center;
+}
+
+.contact-info p, .contact-info ul {
+    margin: 10px 0;
+}
+
 .card{
   border: rgb(103, 102, 105) 3px solid;
   display: flex;  
